@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint app/**/*.js*",
+    "format": "prettier --write app/**/*.js*",
+    "prepare": "husky install"
   },
   "dependencies": {
     "eslint": "8.42.0",
@@ -14,5 +16,14 @@
     "next": "13.4.5",
     "react": "18.2.0",
     "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "husky": "^8.0.3",
+    "install": "^0.13.0",
+    "lint-staged": "^13.2.2",
+    "prettier": "^2.8.8",
+    "standard": "^17.1.0"
   }
 }
