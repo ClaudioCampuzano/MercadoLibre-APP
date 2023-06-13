@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StatusMessage renders 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <img
+      alt="Loading"
+      data-nimg="1"
+      decoding="async"
+      height="50"
+      loading="lazy"
+      src="/_next/image?url=%2Fimg.jpg&w=128&q=75"
+      srcset="/_next/image?url=%2Fimg.jpg&w=64&q=75 1x, /_next/image?url=%2Fimg.jpg&w=128&q=75 2x"
+      style="color: transparent;"
+      width="50"
+    />
+    <span>
+      Cargando...
+    </span>
+  </div>
+</div>
+`;

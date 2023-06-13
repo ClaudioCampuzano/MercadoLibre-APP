@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Item renders 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <a
+      class="link"
+      href="/items/undefined"
+    >
+      <article
+        class="article"
+      >
+        <img
+          alt="article"
+          data-nimg="1"
+          decoding="async"
+          height="150"
+          loading="lazy"
+          src="/_next/image?url=htpp%3A%2F%2Fblabla.com&w=384&q=75"
+          srcset="/_next/image?url=htpp%3A%2F%2Fblabla.com&w=256&q=75 1x, /_next/image?url=htpp%3A%2F%2Fblabla.com&w=384&q=75 2x"
+          style="color: transparent;"
+          width="150"
+        />
+        <section>
+          <div
+            class="price"
+          >
+            <h2>
+              $456789
+            </h2>
+            🟢
+          </div>
+          <h3>
+            ipsum
+          </h3>
+        </section>
+      </article>
+    </a>
+  </div>
+</div>
+`;

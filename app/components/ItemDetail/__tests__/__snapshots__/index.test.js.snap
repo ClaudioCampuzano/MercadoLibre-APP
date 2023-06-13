@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ItemDetail renders 1`] = `
+<div>
+  <article
+    class="article"
+  >
+    <section
+      class="section"
+    >
+      <img
+        alt="article"
+        data-nimg="1"
+        decoding="async"
+        height="400"
+        loading="lazy"
+        src="/_next/image?url=htt%3A%2F%2Fblabla.com&w=828&q=75"
+        srcset="/_next/image?url=htt%3A%2F%2Fblabla.com&w=640&q=75 1x, /_next/image?url=htt%3A%2F%2Fblabla.com&w=828&q=75 2x"
+        style="color: transparent;"
+        width="400"
+      />
+      <div>
+        <h4>
+          Nuevo 250 vendidos
+        </h4>
+        <h3>
+          ipsum
+        </h3>
+        <h1>
+          $456789
+        </h1>
+        <button
+          class="button"
+        >
+          Comprar
+        </button>
+      </div>
+    </section>
+    <h2>
+      Descripción del producto
+    </h2>
+    <p>
+      lorem
+    </p>
+  </article>
+</div>
+`;
