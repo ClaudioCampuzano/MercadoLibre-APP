@@ -1,0 +1,17 @@
+@import '@/styles/constans.module.scss';
+
+.container {
+  background-color: $backgroundColor;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contentProducts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
