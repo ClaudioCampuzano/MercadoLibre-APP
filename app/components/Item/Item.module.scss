@@ -1,0 +1,22 @@
+@import '@/styles/constans.module.scss';
+
+.container {
+  background-color: $whiteColor;
+  margin-top: 0.1rem;
+  padding: 15px;
+  width: 80%;
+}
+
+.link {
+  text-decoration: none;
+  color: $primaryTextColor;
+}
+
+.article {
+  display: flex;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+}
